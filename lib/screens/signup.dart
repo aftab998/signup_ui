@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:signui2/screens/textfield.dart';
 
+import 'detail.dart';
 import 'login.dart';
 
 class signup extends StatefulWidget {
@@ -37,7 +38,7 @@ class _signupState extends State<signup> {
               SizedBox(height:30),
             GestureDetector(
               onTap:(){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>signup()));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>detail()));
 
               },
               child: Container(
