@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
 import 'package:signui2/screens/signup.dart';
+import 'package:signui2/screens/search.dart';
 import 'package:signui2/screens/textfield.dart';
 
 class Login extends StatefulWidget {
@@ -34,7 +35,7 @@ class _LoginState extends State<Login> {
               SizedBox(height:30),
               GestureDetector(
                 onTap:(){
-                  //Navigator.push(context, MaterialPageRoute(builder: (context)=>signup()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>search()));
 
                 },
                 child: Container(

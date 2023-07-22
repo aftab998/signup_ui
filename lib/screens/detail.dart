@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:signui2/screens/profileScreen.dart';
 import 'package:signui2/screens/textfield.dart';
 import 'login.dart';
 
@@ -50,7 +51,7 @@ class _detailState extends State<detail> {
               SizedBox(height:15),
               GestureDetector(
                 onTap:(){
-                  //Navigator.push(context, MaterialPageRoute(builder: (context)=>signup()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>profile()));
 
                 },
                 child: Container(
